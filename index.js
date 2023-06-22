@@ -64,7 +64,7 @@ function closemenu() {
 }
 // typing text animation script
 var typed = new Typed(".typing", {
-    strings: ["A Full Stack Developer"],
+    strings: ["A Full Stack Web Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -73,12 +73,12 @@ var typed = new Typed(".typing", {
 
 document.querySelector('#resume-link-1').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/file/d/1CcQ5WXLl8OVkMCbleDjG9i_Mym-RG9Y_/view?usp=sharing", "_blank");
+    window.location.assign("https://drive.google.com/file/d/1LQHesXWrMt5zUaHnafkbiFSVGwQRwJik/view?usp=sharing", "_blank");
 })
 
 document.querySelector('#resume-link-2').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/file/d/1CcQ5WXLl8OVkMCbleDjG9i_Mym-RG9Y_/view?usp=sharing", "_blank");
+    window.location.assign("https://drive.google.com/file/d/1LQHesXWrMt5zUaHnafkbiFSVGwQRwJik/view?usp=sharing", "_blank");
 })
 
 

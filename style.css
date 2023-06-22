@@ -368,7 +368,10 @@ nav .fas {
 
 .project-card {
     width: 100%;
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap:10px; */
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     background-color: RGB(35, 40, 62);
     color: #90A0D9;
@@ -382,7 +385,7 @@ nav .fas {
 }
 
 #firstprojectdiv img {
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin: 10px;
     border-radius: 10px;
@@ -397,7 +400,7 @@ nav .fas {
 }
 
 .project-card h1 {
-    left: 0;
+    /* left: 0; */
     font-size: 20px;
 }
 
