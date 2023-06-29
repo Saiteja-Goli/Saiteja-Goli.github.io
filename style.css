@@ -376,22 +376,6 @@ section .title::after {
   background: none;
 }
 
-/* #resume-button-2,#resume-link-2{
-  display: inline-block;
-    background: rgba(82, 3, 82, 0.89);
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px 30px;
-
-    margin: 20px 10px 0px 0px;
-    border-radius: 6px;
-
-    transition: all 0.3s ease;
-    z-index: 1;
-    position: relative;
-    cursor: pointer;
-} */
 .btn-resume {
   font-size: 17px;
   font-weight: 500;
@@ -466,11 +450,6 @@ section .title::after {
   margin: auto;
 }
 
-/* .projects .serv-content .card:hover {
-  box-shadow: rgba(251, 251, 251, 0.24) 0px 3px 8px;
-  background: rgb(14, 14, 14);
-} */
-
 .projects .serv-content .card .box {
   height: 100%;
   display: flex;
@@ -484,7 +463,16 @@ section .title::after {
   height: 40%;
   object-fit: contain;
 }
-
+.project-title{
+  /* border:1px solid white; */
+  /* margin:30px auto;
+  font-size:20px;
+  font-weight: 500; */
+  text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
 p.project-description {
   height: 50%;
   text-align: justify;
