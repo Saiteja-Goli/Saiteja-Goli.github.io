@@ -301,7 +301,7 @@ section .title::after {
     box-sizing: border-box;
     overflow: hidden;
     object-fit: contain;
-    border: 4.5px solid red;
+    border: 4.5px solid rgb(255, 253, 253);
     /* padding-right: 14px; */
     /* background-color: #272937; */
     border-radius: 10px;
