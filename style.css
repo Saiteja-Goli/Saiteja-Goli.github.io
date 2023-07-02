@@ -894,10 +894,7 @@ footer {
   text-align: center;
 }
 
-footer span a {
-  color: #2253c8;
-  text-decoration: none;
-}
+
 
 footer span a:hover {
   text-decoration: underline;
