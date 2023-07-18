@@ -547,10 +547,6 @@ p.project-description {
   font-weight: 600;
   margin-bottom: 10px;
 }
-
-/* .skills .skills-content .left ul{
-  list-style: none;
-} */
 .skills .skills-content .left ul li {
   margin: 15px 10px;
 }
@@ -610,7 +606,7 @@ p.project-description {
   background: #2253c8;
 }
 
-.skills-content .right .html::before {
+/* .skills-content .right .html::before {
   width: 90%;
 }
 
@@ -628,7 +624,7 @@ p.project-description {
 
 .skills-content .right .mysql::before {
   width: 90%;
-}
+} */
 
 
 
@@ -1166,8 +1162,16 @@ footer span a:hover {
   /* height: 540px; */
   display: grid;
   /* grid-template-columns: repeat(auto); */
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+}
+#tools1 {
+  margin-top: -100px;
+  /* height: 540px; */
+  display: grid;
+  /* grid-template-columns: repeat(auto); */
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
 }
 
 .tool {
@@ -1178,14 +1182,14 @@ footer span a:hover {
 }
 
 .tool img {
-  width: 63px;
+  width: 65px;
   height: 63px;
 }
 
 .sourceCodeBtn {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 
